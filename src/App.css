@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+body{
+    background-color: black;
+}
+.introBackground{
+  background-color: rgb(175, 170, 170);
+  background-image: url(./Background.jpg);
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  
+}
+.cardTmargin{
+  position:absolute;
+  margin-top: 200px;
+}
+.aboutTitle{
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  color: rgb(255,255,255);
+  
+}
+.Fields{
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+}
+.aboutBody{
+text-align: left;
+font-style: bold;
+font-weight: 10px;
+}
+.image{
+  text-align: right;
+}
+.skills{
+  text-align: center;
+  width: 320px;
+  height: 250px;
+
+}
+.skillTitle{
+  font-weight: bold;
+  font-size: 60px;
+}
+li{
+  margin: 0;
+  padding: 0;
+}
+.social-icons {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              height: 100%;
+              
+ }
+      
+            .social-icons .fa {
+              font-size: 50px;
+              padding-bottom: 20px;
+              cursor: pointer;
+            }
+@media screen and (max-width: 992px){
+  .image {
+      text-align: center;
+    }
+        .introBackground {
+          background-color: rgb(175, 170, 170);
+          background-image: url(./Background.jpg);
+          padding-bottom: 300px;
+          background-repeat: no-repeat;
+          background-position: center;
+    
+    
+        }
+}
