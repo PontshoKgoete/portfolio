@@ -1,5 +1,5 @@
 # Pontsho Kgoete's portfolio
-This project serves the purpose of experssing who i am, what i believe, and hope achieve and be part of SovTech Graduate programme.
+This project serves the purpose of experssing who i am, what i believe, and hope achieve.
 
 ## Guide on how to bootstrap the app
 
